@@ -2,6 +2,14 @@
 
 This gem provides access to Vend's REST API.
 
+== Using this gem in your Ruby app
+
+This repository is a fork of https://github.com/trineo/vend-ruby. The original gem was just 'vend', but to get the
+latest gem from here you'll need to specify this repo explicitly.
+Add this line to your Gemfile, or replace the existing one if you're already using 'vend' gem:
+    gem 'vend', :github => 'JSBizon/vend-ruby'
+
+
 == Vend API Documentation
 
 At the time of writing, this is located at
